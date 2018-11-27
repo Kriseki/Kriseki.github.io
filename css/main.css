@@ -1,0 +1,393 @@
+/****************************
+		NAVIGATION
+ ****************************/
+
+/* Style the sidebar - fixed full height */
+.sidebar {
+  height: 100%;
+  width: 75px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #202020;
+  overflow-x: hidden;
+  padding-top: 100px;
+  opacity: .75;
+  overflow: hidden;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 6px 8px 20px 22px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #303030;
+  display: block;
+}
+
+.worktext, .contacttext {
+	margin-left: -4px;
+}
+
+.contactBar a {
+	font-size: 20px;
+	padding: 5px;
+	padding-left: 25px;
+}
+
+#last {
+	margin-bottom: 60px;
+}
+
+.current {
+	color: #49cec1;
+}
+
+
+/***********************************
+	MAIN
+ ***********************************/
+
+ body {
+ 	background-image: url("../images/particles.jpg");
+ 	background-color: #303030;
+ 	font-family: 'Amatic SC', cursive;
+ }
+
+h1 {
+	margin-left: 15%;
+	color: #fff;
+	font-size: 55px;
+}
+
+p {
+	margin-left: 15%;
+	color: #C0B9B9;
+	font-size: 21px;
+	
+}
+
+.pageHeader {
+	color: #49cec1;
+}
+
+.frontName {
+	margin-left: 15%;
+	color: #fff;
+	font-size: 55px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.frontLocation {
+	margin-right: 700px;
+	margin-top: -5px;
+	font-size: 26px;
+	display: inline-block;
+}
+
+#mainContent {
+	margin-top: -220px;
+	margin-left: -15px;
+}
+
+.k {
+	margin-left: 60%;
+	margin-top: 200px;
+}
+
+#secondContent {
+	margin-top: 40px;
+	float: none;
+
+}
+
+#secondContent p {
+	color: #fff;
+	width: 33%;
+	font-size: 26px;
+	font-weight: bold;
+
+}
+.mainwork {
+	width: 370px;
+	height: 370px;
+	margin-left: 150px;
+}
+
+.workpic1 {
+	height: 120px;
+	width: 120px;
+}
+
+.workpic2 {
+	height: 120px;
+	width: 120px;
+	margin-left: 2px;
+}
+
+#work1 {
+	margin-bottom: 250px;
+	margin-left: 5px;
+}
+
+#work2 {
+	margin-left: -122px;
+	margin-bottom: 125px;
+}
+
+#work3 {
+	margin-left: -122px;
+}
+
+#work4 {
+	margin-left: 150px;
+}
+
+.preview {
+	margin-left: 60%;
+	margin-top: -500px;
+}
+
+.preview h2 {
+	font-size: 30px;
+	color: #ed6168;
+}
+
+.preview p {
+	font-size: 25px;
+}
+.heart {
+	float: left;
+	margin-left: 20%;
+	color: white;
+}
+
+.softskills {
+	text-align: center;
+	border-radius: 5px;
+	background-color: #49cec1;
+	font-size: 25px;
+	
+}
+
+.techskills {
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #49cec1;
+	font-size: 25px;
+	width: 250px;
+	
+}
+
+.softskills a {
+	text-decoration: none;
+	color: white;
+}
+
+.softskillslist {
+	margin-top: 30px;
+	margin-left: 200px;
+	color: white;
+	float: left;
+}
+
+.softskillitem {
+	text-align: center;
+	width: 350px;
+	border: 1px solid #ed6168;
+	background-color: #353b49;
+	margin-bottom: 5px;
+	height: 120px;
+}
+
+.softskillitem p {
+	margin-top: -5px;
+}
+.softskillicon {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.techlist {
+	margin-top: 30px;
+	margin-right: 240px;
+	color: white;
+	float: right;
+}
+
+.techitem {
+	text-align: center;
+	width: 350px;
+	border: 1px solid #5245ed;
+	background-color: #353b49;
+	margin-bottom: 5px;
+	height: 120px;
+}
+.techicon {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.tools {
+	margin-left: 60%;
+}
+
+.hearticon {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+
+}
+
+.toolsicon {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+}
+
+.contacts {
+	height: 100px;
+	width: 100px;
+	margin: 40px;
+}
+
+.contacticons {
+	margin-left: 30%;
+	margin-top: 150px;
+}
+
+
+
+.git {
+	width: 200px;
+	color: white;
+	margin-left: 430px;
+	margin-top: -40px;
+}
+
+.linked {
+	width: 200px;
+	color: white;
+	margin-left: 570px;
+	margin-top: -50px;
+}
+
+.emails {
+	width: 200px;
+	color: white;
+	margin-left: 790px;
+	margin-top: -50px;
+}
+/***********************************
+	HOVERS AND ANIMATIONS
+ ***********************************/
+@keyframes fadein{
+   from{opacity:0;}
+   to{opacity:1;}
+}
+
+.sidebar a:hover {
+  	color: #49cec1;
+}
+
+.sidebar a:active {
+	color: #49cec1;
+}
+
+#secondContent img:hover {
+	opacity: .90;
+}
+
+.sidebar p:hover {
+	color: #49cec1;
+}
+
+.softskills:hover {
+	cursor: pointer;
+}
+
+.techskills:hover {
+	cursor: pointer;
+}
+
+/***********************************
+	MEDIA QUERIES
+ ***********************************/
+/**
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+**/
+@media only screen and (max-width: 1200px){
+	
+	.frontName {
+		font-size: 40px;
+	}
+
+	.frontLocation {
+		font-size: 20px;
+	}
+
+	.sidebar{
+		margin-top: -75px;
+		margin-bottom: -10px;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.sidebar {
+		margin-top: -85px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+    	width: 100%;
+    	height: 50px;
+    	margin-top: -200px;
+    	padding-bottom: 10px;
+    	display: inline;
+    	background-color: #202020;
+    	overflow: hidden;
+    }
+    .sidebar a {
+    	display: inline-block;
+    	float: left;
+
+    }
+
+    .contactBar a {
+    	display: inline-block;
+    	margin-top: 10px;
+
+    }
+
+    .firstContact {
+    	margin-left: 150px;
+    }
+
+    .frontName {
+    	margin-left: 25px;
+    }
+
+    .frontLocation {
+    	margin-left: 25px;
+    }
+
+    #secondContent {
+    	margin-left: -70px;
+    }
+
+
+
+}
